@@ -1,4 +1,4 @@
-class Person < ApplicationRecord
+class Person
   attr_accessor :name
   attr_reader :age
   attr_reader :gender
