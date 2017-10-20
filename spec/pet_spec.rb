@@ -1,6 +1,7 @@
 require "rspec"
 require_relative "../app/models/pet"
 
+# First set, BAD PRACTICE
 describe Pet do
   it "checks the name is not empty" do
     pet = Pet.new("Clive", "Dog")
@@ -18,3 +19,5 @@ describe Pet do
   end
 
 end
+
+# Second set, GOOD PRACTICE
