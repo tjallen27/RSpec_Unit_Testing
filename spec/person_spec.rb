@@ -1,4 +1,4 @@
-require "rspec"
+require "rspec" 
 require_relative "../app/models/person"
 
 describe Person do
