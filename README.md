@@ -1,4 +1,7 @@
 # Another RSpec test...
-This project is another practice for Rspec.
+This project is to practice RSpec
 
-Similar to the first test but with a different model and more tests for that model.
+### What I Did/Found:
+* "< ApplicationRecord" in the model prevented tests from running: "unitialized constant"
+* Write smaller tests
+* Test specific methods are performing
