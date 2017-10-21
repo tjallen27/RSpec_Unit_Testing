@@ -4,10 +4,6 @@ require_relative "../app/models/pet"
 RSpec.describe Pet, :name, :type => :model do
   subject { described_class.new("Clive", "Dog") }
 
-  # before :each do
-  #     @pet = Pet.new("Clive", "Dog")
-  # end
-
   it "checks the name is not empty" do
     expect(subject.name).not_to be_empty
   end
